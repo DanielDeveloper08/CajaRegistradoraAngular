@@ -1,0 +1,33 @@
+.productos{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.producto div{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.producto img{
+    width: 30%;
+    padding: 4px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.productos:hover{
+    background-color: lightcyan;
+}
+
+h3{
+    text-transform: uppercase;
+    background-color: lightgrey;
+    padding: 3px;
+}
+
